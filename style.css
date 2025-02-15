@@ -1,0 +1,43 @@
+p {
+    font-family: Roboto, Arial;
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(169, 208, 218);
+    height: 600px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.first {
+    height: 400px;
+    width: 300px;
+    background-color: rgb(225, 237, 237);
+    margin: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    border-radius: 15px;
+}
+
+.image {
+    margin-top: 25px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.improve {
+    font-weight: bold;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.scan {
+    padding-left: 30px;
+    padding-right: 30px;
+}
